@@ -1,4 +1,5 @@
 install.packages(c("dplyr",
+                   "tidyr",
                    "readr",
                    "ggplot2",
                    "quanteda",
