@@ -8,6 +8,8 @@ library(dplyr)
 
 glimpse(yt)
 
+library(tubecleanR)
+
 processed_yt <- parse_yt_comments(yt,
                                   package = "vosonSML") # Paket, mit dem die Daten gesammelt wurden (vosonSML oder tuber)
 
@@ -31,6 +33,8 @@ processed_yt |>
     y = "Cumulative Comments"
   ) +
   theme_minimal()
+
+library(tidyr)
 
 processed_yt |>
   unnest_longer(Emoji) |>
@@ -61,7 +65,7 @@ tokens_yt <- tokens_remove(tokens_yt,
 tokens_yt <- tokens_select(tokens_yt,
                            min_nchar = 3)
 
-dfm_insta <- dfm(tokens_yt)
+dfm_yt <- dfm(tokens_yt)
 
 library(quanteda.textstats)
 
