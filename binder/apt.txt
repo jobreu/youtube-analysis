@@ -1,0 +1,6 @@
+libglpk-dev
+libxml2-dev
+libx11-dev
+libicu-dev
+libglpk-dev
+fonts-noto-color-emoji
