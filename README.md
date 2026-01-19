@@ -1,6 +1,6 @@
 # youtube-analysis
 
-Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jobreu/youtuve-analysis/main)
+Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jobreu/youtube-analysis/main)
 
 RStudio [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jobreu/youtube-analysis/main?urlpath=rstudio)
 
